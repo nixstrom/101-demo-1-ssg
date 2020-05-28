@@ -12,5 +12,19 @@
     "image": "product-cat-bunny.jpg",
     "description": "Dress your cat up as a bunny and make it hate you.",
     "url": "https://www.amazon.co.uk/Legendog-Costume-Outfit-Adjustable-Cats-Daily/dp/B07L5H8NQM"
+  },
+  "prod-cat-outfit-pirate": {
+    "name": "Jaunty cat pirate outfit",
+    "rrp": "100.00",
+    "image": "product-cat-pirate.jpg",
+    "description": "Dress your cat up as a pirate and make it hate you.",
+    "url": "https://www.amazon.co.uk/Idepet-Caribbean-Costume-Dressing-Clothing/dp/B01L8TGVOU"
+  },
+  "prod-cat-book": {
+    "name": "A cat book that you need",
+    "rrp": "5.00",
+    "image": "product-cat-book.jpg",
+    "description": "Read about why your cats hates you as if that wasn't obvious from the things you've been buying it you monster.",
+    "url": "https://www.amazon.co.uk/Does-Cat-Hate-Environmental-Enrichment/dp/1948366185"
   }
 }
