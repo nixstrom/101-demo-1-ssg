@@ -20,7 +20,7 @@
 
     {% for sku, item in catalogue %}
 
-      <div action="/thanks" class="product" data-product-id="{{ sku }}">
+      <div class="product" data-product-id="{{ sku }}">
         <div class="info">
           <h2>{{ item.name }} - awesome!</h2>
           <p class="description">{{ item.description }}</p>
@@ -35,7 +35,7 @@
     {% endfor %}
 
     <h3>Should we send you cats in the mail?</h3>
-    <form method="post" name="cat-order" netlify>
+    <form action="/thanks" method="post" name="cat-order" netlify>
       <input id="name" name="name"/>
 
       <textarea id="address" name="address"></textarea>
