@@ -10,19 +10,19 @@
   <div class="tint">
     <header>
       <section>
-        <h1>Perfectly sensible products 😻😻😻</h1>
+        <h1>(STAGING) Perfectly sensible products 😻😻😻</h1>
         <p class="subtitle">Not the prices we want, but the prices we deserve</p>
       </section>
     </header>
   </div>
   <main>
-    <section>
+    <section class="flex">
 
     {% for sku, item in catalogue %}
 
       <div class="product" data-product-id="{{ sku }}">
         <div class="info">
-          <h2>{{ item.name }}</h2>
+          <h2>{{ item.name }} - awesome!</h2>
           <p class="description">{{ item.description }}</p>
           <span class="purchase">
             <a href="#" class="btn">Buy meow !!!</a>

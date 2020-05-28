@@ -36,6 +36,11 @@ footer {
   font-size: 0.8rem;
 }
 
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+
 section {
   padding-top: 1rem;
   padding-bottom: 2rem;
@@ -93,6 +98,17 @@ a.naked:focus {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 4rem 0;
+  flex: 1 1 50%;
+
+  animation-name: goLeft;
+  animation-duration: 1.5s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.product:nth-child(2n) {
+  animation-name: goRight;
 }
 
 .product img {
@@ -122,4 +138,22 @@ a.naked:focus {
 .btn:hover {
   color: #000;
   background-color: var(--theme-color);
+}
+
+@keyframes goLeft {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(50%);
+  }
+}
+
+@keyframes goRight {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
