@@ -36,9 +36,15 @@
 
     <h3>Should we send you cats in the mail?</h3>
     <form action="/thanks" method="post" name="cat-order" netlify>
+      <label>
+        Name
       <input id="name" name="name"/>
+    </label>
 
+<label>
+  Address
       <textarea id="address" name="address"></textarea>
+    </label>
       <input type="submit" id="submit" value="YES! Send me cats" />
     </form>
 
