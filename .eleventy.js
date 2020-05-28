@@ -1,4 +1,5 @@
 module.exports = function(eleventyConfig) {
+  const { DATE_CONTEXT, CONTEXT } = process.env;
 
   eleventyConfig.addPassthroughCopy("src/css");
   eleventyConfig.addPassthroughCopy("src/images");
@@ -7,8 +8,7 @@ module.exports = function(eleventyConfig) {
   return {
     dir: {
       input: "src",
-      data: "../data"
+      data: `../data${DATA_CONTEXT}`
     }
   };
-
 };
