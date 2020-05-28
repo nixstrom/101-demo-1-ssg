@@ -1,13 +1,12 @@
 :root {
-  --theme-color: #14ffad;
+  --theme-color: rebeccapurple;
   --accent-color: #ff6e14;
   --tint-color: #ecfcf9;
 }
 
-::selection{
-  background:rgba(0,0,0,0.08);
+::selection {
+  background: rgba(0, 0, 0, 0.08);
 }
-
 
 html,
 body {
@@ -46,8 +45,10 @@ section {
   background-color: var(--tint-color);
 }
 
-h1, h2, h3 {
-  margin:0;
+h1,
+h2,
+h3 {
+  margin: 0;
   padding: 1rem 0 0;
   line-height: 1.2;
   color: #000;
@@ -56,8 +57,8 @@ h1 {
   font-size: 3rem;
 }
 .subtitle {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
   font-size: 1.2rem;
 }
 
@@ -77,16 +78,14 @@ a.naked:link,
 a.naked:visited,
 a.naked:hover,
 a.naked:focus {
-  border-bottom-style:none;
+  border-bottom-style: none;
   background-color: transparent;
 }
 
-
 .netliheart {
-  margin-bottom:-0.1rem;
+  margin-bottom: -0.1rem;
   width: 1rem;
 }
-
 
 .product {
   display: flex;
